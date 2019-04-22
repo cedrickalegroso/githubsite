@@ -1,0 +1,71 @@
+#masthead
+{
+    height: 90vh;
+    background-image:url('./bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.skill-box{
+    background-color: #F7F7F7;
+    height: 50vh;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#box0:hover{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  background-color: #1cabb6;
+  color: white;
+}
+
+#box1:hover{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  background-color: #1cabb6;
+  color: white;
+}
+
+#box2:hover{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: #1cabb6;
+    color: white;
+}
+  
+#box3:hover{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: #1cabb6;
+    color: white;
+}
+  
+
+
+#brand
+{
+    width: 150px;
+}
+
+.lead-sm
+{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#skills {
+    background-color: #F7F7F7;
+}
