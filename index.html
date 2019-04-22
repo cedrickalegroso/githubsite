@@ -12,6 +12,11 @@
 
     <!--- custom styling -->
     <link rel="stylesheet" href="./style.css" >
+
+    <!--- custom styling -->
+    <link rel="stylesheet" href="./navbar.css" >
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -33,13 +38,13 @@
                 <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                <a class="nav-link js-scroll-trigger" href="#myskills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#brands">portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -79,6 +84,8 @@
                               <div class="row h-100 align-items-center">
                                   <div class="col-md-12 text-center">
                           <h1 class="font-weight-light">Web Development.</h1>
+
+                          <a href="./webdevelopment.html" class="hidden-text"> Click to learn more. </a>
                           
                               </div>
                               </div>
@@ -120,13 +127,12 @@
   </section>
 
 
-
-
+  
    
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 ">
             <div class="container h-100">
               <div class="row h-100 align-items-center">
                   <div class="col-md-12 text-left p-5">
@@ -141,7 +147,7 @@
               </div>
           </div>
           </div>
-          <div class="col-md-6 text-center">
+          <div class="col-md-6  order-first order-md-last text-center">
             <img  class="graphic-image" src="./aboutme.png" />
           </div>
         </div>
@@ -149,7 +155,7 @@
     </section>
 
 
-    <section id="skills">
+    <section id="myskills">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -183,8 +189,8 @@
             <div class="container h-100">
               <div class="row h-100 align-items-center">
                   <div class="col-md-12 text-center">
-          <h1 class="font-weight-light">Brand's i've worked with.</h1>
-           <ul class="worked-brands"> 
+          <h1 class="font-weight-light">Brands/organizations i've worked with.</h1>
+           <ul class="worked-brands mt-3"> 
               <li> <img src="./brands/dame.png" /></li>
               <li> <img src="./brands/horizon.png" /></li>        
              <li> <img src="./brands/skybright.png" /></li>           
@@ -201,7 +207,7 @@
           <div class="col-md-6 text-center">
               <div class="container h-100">
                   <div class="row h-100 align-items-center">
-                      <div class="col-md-12 text-left p-5">
+                      <div class="col-md-12 text-center p-5">
               <h1 class="font-weight-light">What people say about my works. </h1>
               <div class="container">
                   <div id="carouselContent" class="carousel slide" data-ride="carousel">
@@ -248,10 +254,90 @@
 
 
     
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 p-5">
+        <h1 class="display-4 text-center text-white"> Contact me. </h1>
+      
+        <form>
+          
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                  </div>
+              </div>
 
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <input type="email" class="form-control" placeholder="example@email.com">
+                          </div>
+                    </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <textarea type="text" class="form-control" placeholder="Hi Cedrick!"></textarea>
+                          </div>
+                    </div>
+              </div>
+
+              <div class="row ">
+                <div class="col-md-12 text-center">
+                    <button class="btn-lg btn-primary"> Send </button>
+                </div>
+                
+              </div>
+        
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
   
    
-	
+	<section id="footer">
+     
+       <div class="container text-center p-3">
+          <div class="row">
+         <div class="col-md-6">
+          <img src="./logo.png" style="width:200px" />
+         </div>
+         <div class="col-md-6">
+
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-md-12 text-center mt-3">
+                        <ul>
+                           
+                            <li> <i class="fab fa-facebook"></i></li>
+                           
+                            <li> <i class="fab fa-linkedin"></i></li>
+                            <li> <i class="fab fa-twitter"></i></li>
+                            <li> <i class="fab fa-github"></i></li>
+                          </ul>
+                </div>
+                </div>
+            </div>
+            </div>
+          </div>
+
+           
+        
+           </div>
+         
+       </div>
+     </div>
+  </section>
 	
 
 </body>

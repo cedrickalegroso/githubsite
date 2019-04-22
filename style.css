@@ -1,6 +1,6 @@
 #masthead
 {
-    height: 90vh;
+    height: 100vh;
     background-image:url('./bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,13 +20,32 @@
     transition: all 0.5s ease;
 }
 
-#box0:hover{
+.hidden-text {
+    display: none;
+}
+
+.hidden-text:hover {
+    display: block;
+}
+
+#box0:hover {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     background-image:url('./bg.png');
   color: white;
+  
+}
+
+#box0:hover .hidden-text{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  display: block;
+  color:white;
+  text-decoration: none;
 }
 
 #box1:hover{
@@ -73,6 +92,10 @@
     background-color: #F7F7F7;
 }
 
+#myskills {
+    background-color: #F7F7F7;
+}
+
 #brands ul li {
   display: inline;
   text-decoration: none;
@@ -109,4 +132,40 @@
   width: 100%;
   height: auto;
   padding: 50px;
+}
+
+#contact {
+    background-color: #166b72;
+}
+
+#footer  {
+    height: 100%;
+    background-color: #0c4145;
+}
+
+
+#footer  ul li  {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+#footer  ul li i  {
+  color: white;
+  font-size: 40px;
+  margin: 10px;
+}
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  
+    
 }
