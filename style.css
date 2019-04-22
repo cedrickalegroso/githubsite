@@ -1,3 +1,7 @@
+html, body {
+    width: 100vw;
+    overflow-x: hidden;
+}
 #masthead
 {
     height: 100vh;
@@ -33,7 +37,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background-image:url('./bg.png');
+    background-image:url('./webdev.png');
   color: white;
   
 }
@@ -53,7 +57,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-  background-color: #1cabb6;
+    background-image:url('./graphic.png');
   color: white;
 }
 
@@ -62,7 +66,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background-color: #1cabb6;
+    background-image:url('./film.png');
     color: white;
 }
   
@@ -71,7 +75,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background-color: #1cabb6;
+    background-image:url('./game.png');
     color: white;
 }
   
@@ -156,9 +160,77 @@
   margin: 10px;
 }
 
+.longheadline
+{
+    font-optical-sizing: 1.0rem !important;
+    font-weight: 300 !important;
+}
+
+.form-control
+{
+    border-radius: 30px 30px 30px 30px;
+}
+
+.toollang li
+{
+ display: inline;
+ text-decoration: none;
+ list-style-type: none;
+}
 
 
+.toollang li img
+{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 50px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 
+}
+
+.toollang li img:hover
+{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+
+}
+
+#section02 a {
+    padding-top: 60px;
+  }
+  #section02 a span {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  #section02 a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+  
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -166,6 +238,35 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    #skills{
+        height: 120vh;
+    }
+  #box0{
+      height: 30vh;
+  }
+
+  #box1{
+    height: 30vh;
+}
+
+
+#box2{
+    height: 30vh;
+}
+
+
+#box3{
+    height: 30vh;
+}
+
+  
+#carouselContent p {
+    font-size: 1rem;
+}
+
+.worked-brands {
+    margin-left: -50px;
+}
   
     
 }
