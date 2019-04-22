@@ -10,6 +10,23 @@ html, body {
     background-repeat: no-repeat;
 }
 
+#masthead-graphic
+{
+    height: 80vh;
+    background-image:url('./bggraphic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#masthead-webdev
+{
+    height: 80vh;
+    background-image:url('./bgwebdev.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .graphic-image
 {
     width: 100%;
@@ -26,6 +43,7 @@ html, body {
 
 .hidden-text {
     display: none;
+    color:black;
 }
 
 .hidden-text:hover {
@@ -61,6 +79,16 @@ html, body {
   color: white;
 }
 
+#box1:hover .hidden-text{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  display: block;
+  color:white;
+  text-decoration: none;
+}
+
 #box2:hover{
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -83,7 +111,7 @@ html, body {
 
 #brand
 {
-    width: 150px;
+    width: 100px;
 }
 
 .lead-sm
@@ -230,6 +258,40 @@ html, body {
     transform: rotate(-45deg);
     box-sizing: border-box;
   }
+
+  
+  .gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
   
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
