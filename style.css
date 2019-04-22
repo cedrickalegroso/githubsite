@@ -6,7 +6,10 @@
     background-repeat: no-repeat;
 }
 
-
+.graphic-image
+{
+    width: 100%;
+}
 
 .skill-box{
     background-color: #F7F7F7;
