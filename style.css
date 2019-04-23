@@ -304,6 +304,23 @@ html, body {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+    #masthead-graphic
+{
+    height: 100vh;
+    background-image:url('./bggraphic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#masthead-webdev
+{
+    height: 100vh;
+    background-image:url('./bgwebdev.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
     #skills{
         height: 120vh;
     }
@@ -335,4 +352,22 @@ html, body {
 }
   
     
+#peoplesay {
+    height: 100vh;
+  }
+
+
+  
+
+#footer  ul   {
+   margin-right: 30px;
+}
+
+#footer  ul li i  {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+
+
 }
