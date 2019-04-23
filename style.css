@@ -128,6 +128,10 @@ html, body {
     background-color: #F7F7F7;
 }
 
+#peoplesay {
+    height: 50vh;
+  }
+
 #brands ul li {
   display: inline;
   text-decoration: none;
